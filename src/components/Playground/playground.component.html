@@ -1,0 +1,25 @@
+<div class="container">
+  <p>Hello Playground Component</p>
+
+  <p>firstname: {{ firstname }}</p>
+  <p>lastname: {{ lastname }}</p>
+  <p>age: {{ age }}</p>
+
+  <div class="btns">
+    <button (click)="increaseAge()">Add Age</button>
+    <button (click)="decreaseAge()">Less Age</button>
+  </div>
+
+  <ul>
+    <ng-container *ngIf="active">
+      <li *ngFor="let item of items">
+        {{ item.firstname }}
+        {{ item.lastname }}
+      </li>
+    </ng-container>
+  </ul>
+
+  <button (click)="isActive()">Show List</button>
+
+  <span> the @input is {{ name }} </span>
+</div>

@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  background-image: #371534;
+  background-image: radial-gradient(at 84% 95%, #6ca2e5 0, #00000069 50%),
+    radial-gradient(at 57% 79%, #f94389 0, transparent 41%),
+    radial-gradient(at 45% 65%, #f0b975 0, transparent 48%),
+    radial-gradient(at 1% 22%, #e161e5 0, transparent 52%),
+    radial-gradient(at 24% 32%, #6183e0 0, transparent 58%),
+    radial-gradient(at 12% 53%, #ac84f1 0, transparent 53%),
+    radial-gradient(at 71% 96%, #b286f4 0, transparent 46%);
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  color: #371534;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #371534;
+  color: white;
+}
